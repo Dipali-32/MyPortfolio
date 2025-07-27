@@ -1,0 +1,25 @@
+<%- include("partials/header") %>
+<%- include("partials/navbar") %>
+
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-grid">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:dipali9607@gmail.com">dipali@example.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dipali-p-534981230/" target="_blank">/dipali-patil</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/Dipali-32" target="_blank">/Dipali-32</a></p>
+      </div>
+
+      <!-- Contact Form -->
+      <form action="https://formspree.io/f/mrblqwne" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="_replyto" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
